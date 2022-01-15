@@ -14,7 +14,7 @@ DESCRIPTION
         Search variables   |  Ctrl+V     (V for variable)  |  --variables
     An option with a key sequence value overrides the binding for its feature, while an option
     without a value disables the binding. A feature that is not customized retains its default
-    menomonic binding specified above. Key bindings are installed for default and insert modes.
+    mnemonic binding specified above. Key bindings are installed for default and insert modes.
 
     In terms of validation, fzf_configure_bindings fails if passed unknown options. Furthermore, it
     expects an equals sign between an option's name and value. However, it does not validate key
