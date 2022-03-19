@@ -14,6 +14,6 @@ This is my personal fork of [fzf.fish](https://github.com/PatrickF1/fzf.fish).
 
 ## TODO
 
-- [ ] Add a fallback to magic mode where you pick the mode in fzf
+- [x] Add a fallback to magic mode where you pick the mode in fzf
 - [ ] Add customization options
 - [ ] Upstream some of the changes
