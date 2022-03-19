@@ -21,7 +21,7 @@ function _fzf_magic_mode
         _fzf_search_git_branches \
         _fzf_search_git_log \
         _fzf_search_ssh_connections \
-        _fzf_search_pids \
+        _fzf_search_processes \
         _fzf_search_directory
 
     for pattern_index in (seq (count $patterns))
