@@ -21,11 +21,11 @@ end
 
 function __fzf_get_binding_strings
     for i in (seq (count $_fzf_key_sequence_descriptions))
-        echo (__fzf_capitalize $_fzf_key_sequence_descriptions[$i])\
-        " ("\
-        (set_color $fish_pager_color_description) \
-            (__fzf_friendly_bind $_fzf_key_sequences[$i])\
-        (set_color normal) \
+        echo (__fzf_capitalize $_fzf_key_sequence_descriptions[$i]) \
+            " (" \
+            (set_color $fish_pager_color_description) \
+            (__fzf_friendly_bind $_fzf_key_sequences[$i]) \
+            (set_color normal) \
             ")"\t"$_fzf_key_binded_functions[$i]"
     end
 end
